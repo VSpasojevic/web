@@ -1,0 +1,14 @@
+package http_server;
+
+public class Proizvod {
+	private String id;
+	private String naziv;
+	private int kolicina;
+	private float cena;
+	public String getId() {
+		return id;
+	}
+	public void setId(String id) {
+		this.id = id;
+	}
+}
